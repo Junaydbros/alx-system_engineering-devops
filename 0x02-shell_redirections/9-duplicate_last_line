@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -"$Lines1"f iacta
+awk.'{print ">"$0}1' iacta

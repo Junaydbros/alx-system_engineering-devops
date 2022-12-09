@@ -1,2 +1,2 @@
 #!/bin/bash
-$((128 + (printenv TRUEKNOWLEDGE)))
+echo $((128 + (printenv TRUEKNOWLEDGE)))
